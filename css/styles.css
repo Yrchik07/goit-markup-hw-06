@@ -49,8 +49,8 @@ img{
 }
 .container{
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
     max-width: 320px;
     margin: 0 auto;
 }
@@ -190,7 +190,7 @@ nav{
 }
 .plan_menu{
     display: flex;
-    gap: 24px;
+    gap: 72px;
     justify-content: center;
     /*+ flex-wrap: wrap; */
      flex-wrap: wrap;
@@ -672,8 +672,34 @@ display: block;
     .container{
         max-width: 768px;
     }
+    .plan_menu{
+        gap: 72px 24px;
+    }
+    .plan_item{
+        width: calc((100% - 24px) / 2);
+    }
+    .plan_title{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container{
+        max-width: 1124px;
+    }
+    section{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    
     .plan_item{
         width: calc((100% - 72px) / 4);
     }
+    .plan_box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
 
+    }
 }
