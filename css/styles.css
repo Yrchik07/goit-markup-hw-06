@@ -687,6 +687,11 @@ display: block;
     .team_menu{
         gap: 64px 24px;
     }
+    .portfolio_img{
+        min-width: 356px;
+        max-height: 300px;
+    }
+    
 }
 
 @media screen and (min-width: 1440px) {
