@@ -246,7 +246,10 @@ display: block;
 .team_menu {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    /* padding: 12px; */
+    align-items: center;
+    gap: 72px;
+    flex-wrap: wrap;
 }
 .team_item {
     background-color: #FFFFFF;
@@ -681,6 +684,9 @@ display: block;
     .plan_title{
         display: block;
     }
+    .team_menu{
+        gap: 64px 24px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -700,6 +706,8 @@ display: block;
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
-
+    }
+    .team_menu{
+        flex-wrap: nowrap;
     }
 }
