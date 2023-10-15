@@ -46,6 +46,8 @@ h1, h2, h3, h4, h5, h6, p{
 }
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 .container{
     display: flex;
@@ -390,7 +392,7 @@ display: block;
 .basement_menu{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
     gap: 72px;
     max-width: 320px;
@@ -710,6 +712,31 @@ display: block;
     .portfolio_img{
         min-width: 356px;
         max-height: 300px;
+    }
+    .basement .container{
+        max-width: 584px;
+    }
+    .basement_menu{
+        max-width: 768px;
+        gap: 72px 24px;
+        justify-content: flex-start;
+    }
+    .basement_menu .item{
+        width: calc((100% - 24px) / 2);
+        max-width: 264px;
+    }
+    .basement_form{
+        display: flex;
+        gap: 24px;
+    }
+    .basement_titl{
+        justify-content: flex-start;
+    }
+    .basement .list_social{
+        justify-content: flex-start;
+    }
+    .basement_input{
+        width: 264px;
     }
 }
 
