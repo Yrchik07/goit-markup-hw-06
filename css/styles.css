@@ -691,7 +691,6 @@ display: block;
         min-width: 356px;
         max-height: 300px;
     }
-    
 }
 
 @media screen and (min-width: 1440px) {
@@ -702,7 +701,6 @@ display: block;
         padding-top: 120px;
         padding-bottom: 120px;
     }
-    
     .plan_item{
         width: calc((100% - 72px) / 4);
     }
@@ -714,5 +712,9 @@ display: block;
     }
     .team_menu{
         flex-wrap: nowrap;
+    }
+    .portfolio_item{
+        width: calc((100% - 48px) / 3);
+  
     }
 }
