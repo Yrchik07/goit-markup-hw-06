@@ -373,21 +373,33 @@ display: block;
 }
 
 /*footer*/
-.basement .container{
+/* .basement .container{
     display: flex;
     align-items: baseline
-}
+} */
 .basement{
     background-color:  #2e2f42;
-    min-height: 312px;
-    padding: 100px 0
+    padding-top: 96px;
+    padding-bottom: 96px;
+    /* min-height: 312px;
+    padding: 100px 0 */
 }
-.basement_description{
+/* .basement_description{
     margin-right: 120px;
+} */
+.basement_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 72px;
+    max-width: 320px;
 }
 .basement_link{
-    display: inline-block;
-    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 17.5px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -402,9 +414,12 @@ display: block;
 .basement_text{
     color: #F4F4FD;
     letter-spacing: 0.02em;
-    max-width: 264px;
+    /* max-width: 264px; */
 }
 .basement_titl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #FFF;
     font-size: 16px;
     font-style: normal;
@@ -427,17 +442,21 @@ display: block;
 /*footer form*/
 .basement_box{
     flex-shrink: 0;
-    margin-left: auto;
+    margin: 0;
 }
-.basement_form{
+/* .basement_form{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 24px;
-}
+} */
 .basement_labe{
     display: flex;
+    margin-bottom: 16px;
 }
 .basement_input{
-    width: 264px;
+    width: 288px;
     height: 40px; 
     border: 1px solid #ffffff;
     background-color: transparent;
@@ -453,6 +472,7 @@ display: block;
     color #ffffff; 
 }
 .basement_btn{
+    margin: 0 auto;
     min-width: 165px; 
     height: 40px;
     display: flex; 
