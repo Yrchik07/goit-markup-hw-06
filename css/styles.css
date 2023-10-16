@@ -703,6 +703,19 @@ display: block;
     .container{
         max-width: 768px;
     }
+    .solutions{
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+    .solutions .container{
+        display: block;
+        }
+    .solutions_title{   
+        font-size: 56px;
+        padding-bottom: 36px;
+        line-height: 60px; /* 107.143% */
+        letter-spacing: 1.12px;
+        }
     .plan_menu{
         gap: 72px 24px;
     }
@@ -754,6 +767,14 @@ display: block;
         padding-top: 120px;
         padding-bottom: 120px;
     }
+    .solutions{
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+    .solutions_title{   
+        padding-bottom: 48px;
+        }
+
     .plan_item{
         width: calc((100% - 72px) / 4);
     }
