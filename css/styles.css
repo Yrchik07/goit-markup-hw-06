@@ -89,7 +89,7 @@ nav{
  display: none;
  justify-content: space-between;
  gap: 40px;
- padding-left: 76px;
+ margin-left: 76px;
 }
 .navigation_link_logo{
     font-family: "Raleway", sans-serif;
@@ -243,6 +243,7 @@ letter-spacing: 0.4px;
     margin: 0 auto;
     padding-top: 72px;
     padding-bottom: 72px;
+    max-width: 1440px;
 }
 @media(min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx){
     .solutions{
@@ -258,11 +259,11 @@ letter-spacing: 0.4px;
     line-height: 40px;
     letter-spacing: 0.72px;
     color: #fff;
-    max-width: 496px; 
+    max-width: 288px;
     margin: 0 auto;
     font-weight: 700;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .solutions_btn{
     display: block;
@@ -820,9 +821,10 @@ display: block;
         }
     .solutions_title{   
         font-size: 56px;
-        padding-bottom: 36px;
+        margin-bottom: 36px;
         line-height: 60px; /* 107.143% */
         letter-spacing: 1.12px;
+        max-width: 496px; 
         }
     .plan_menu{
         gap: 72px 24px;
@@ -835,6 +837,10 @@ display: block;
     }
     .team_menu{
         gap: 64px 24px;
+    }
+    .team_item{
+        width: calc((100% - 24px) / 2);
+        max-width: 264px;
     }
     .portfolio_menu{
         gap: 72px 24px;
@@ -906,7 +912,7 @@ display: block;
     }
     
     .solutions_title{   
-        padding-bottom: 48px;
+        margin-bottom: 48px;
         }
 
     .plan_item{
@@ -955,14 +961,14 @@ display: block;
     }
     .basement_description{
         margin-right: 120px;
-        max-width: 264px;
+        width: 264px;
     }
     .basement_link{
         justify-content: start;
     }
     .social_media{
         margin-right: auto;
-        max-width: 208px;
+        width: auto;
     }
 
 }
